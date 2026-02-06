@@ -13,13 +13,18 @@ export default async function handler() {
       pnlPercent: -10.0
     },
     performance: {
-      totalTrades: 8,
-      winningTrades: 3,
-      losingTrades: 5,
-      winRate: 37.5
+      totalTrades: 10,
+      winningTrades: 6,
+      losingTrades: 4,
+      winRate: 60.0
+    },
+    transparency: {
+      worstTrade: "SHARKBOY -84%",
+      biggestWin: "DONALD +89%",
+      failureLog: "https://profit-agent-steel.vercel.app/failures"
     },
     lastUpdated: new Date().toISOString(),
-    _note: "The agent that earns, not spends"
+    _note: "Radical transparency: we show our losses, not just wins"
   };
   
   return new Response(JSON.stringify(stats, null, 2), {

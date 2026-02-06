@@ -1,0 +1,5 @@
+file 'robot_scaled.png'
+duration 12
+file 'dashboard_scaled.png'
+duration 19
+file 'dashboard_scaled.png'
