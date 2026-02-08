@@ -8,9 +8,9 @@ const LIVE_DATA = {
   startingValue: 70.00,
   pnl: -7.00,
   pnlPercent: -10.0,
-  winRate: 60.0,
-  totalTrades: 10,
-  winningTrades: 6,
+  winRate: 55.6,
+  totalTrades: 9,
+  winningTrades: 5,
   losingTrades: 4,
   lastUpdated: new Date().toISOString()
 };
@@ -19,7 +19,6 @@ const TRADE_LOG = [
   { date: "2026-02-05", token: "SHARKBOY", action: "SELL", result: "-84%", pnl: -21.00, reasoning: "Memecoin rug - entered after pump" },
   { date: "2026-02-05", token: "BigTrout", action: "STOP", result: "-20%", pnl: -2.00, reasoning: "Stop-loss triggered - protected capital" },
   { date: "2026-02-03", token: "RENTA", action: "SELL", result: "+45%", pnl: 6.75, reasoning: "Took profit at momentum peak" },
-  { date: "2026-02-03", token: "EPSTEIN", action: "WIN", result: "+163%", pnl: 8.16, reasoning: "Polymarket Grammy joke play" },
   { date: "2026-01-30", token: "FRIES", action: "STOP", result: "-42%", pnl: -8.40, reasoning: "Entered mid-pump, stop-loss saved further loss" },
   { date: "2026-01-29", token: "DONALD", action: "SELL", result: "+89%", pnl: 13.35, reasoning: "Political memecoin - caught early" },
 ];
